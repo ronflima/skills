@@ -3,8 +3,10 @@ name: python-pep8-style
 description: >-
   Enforces Python style per PEP 8 with a 132-character line limit (extension of
   PEP defaults). Covers layout, imports, whitespace, naming, comments, public
-  APIs, and programming recommendations. Use when writing or reviewing Python,
-  formatting Python, discussing style, lint, or PEP 8.
+  APIs, and programming recommendations. Must be read and applied whenever a
+  Python source file (.py) is edited, created, or refactored. Also use when
+  writing or reviewing Python without file edits, formatting Python, discussing
+  style, lint, or PEP 8.
 ---
 
 # Python style (PEP 8 + 132 columns)
@@ -204,6 +206,10 @@ Only **public** interfaces get backwards-compatibility guarantees. **Documented*
 ---
 
 ## How to use this skill
+
+**Trigger (mandatory):** Whenever the task involves changing or creating a `.py`
+file, use this skill for those edits (and keep following it until the Python
+changes are done).
 
 1. Apply rules above for edits, reviews, and generated Python.
 2. Enforce **132** as the maximum line length unless the project configures otherwise.
